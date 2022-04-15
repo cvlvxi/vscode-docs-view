@@ -27,7 +27,7 @@ export class Renderer {
 	public async render(document: vscode.TextDocument, hovers: readonly vscode.Hover[]): Promise<string> {
 		const parts = (hovers)
 			.flatMap(hover => hover.contents)
-			.map(content => this.getMarkdown(content))
+			.map(content => this.getMarkdown(content as vscode.MarkedString))
 			.filter(content => content.length > 0);
 
 		if (!parts.length) {

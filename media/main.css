@@ -3,8 +3,9 @@ body {
 	margin: 1em 0;
 	padding: 0;
 
-	font-size: 12px;
+	font-size: 18px;
 	line-height: 17px;
+	font-family: SF Compact Text;
 }
 
 pre code {
@@ -35,7 +36,8 @@ pre code {
 code {
 	color: inherit;
 	background: var(--vscode-textCodeBlock-background);
-	font-family: var(--vscode-editor-font-family);
+	font-family: JetBrainsMono Nerd Font !important;
+	font-size: 18px;
 }
 
 ul,
