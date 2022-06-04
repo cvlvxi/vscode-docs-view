@@ -1,3 +1,3 @@
-yarn
-yarn vscode:prepublish
-vsce package
+yarn;
+yarn vscode:prepublish;
+vsce package;
