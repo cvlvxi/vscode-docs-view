@@ -3,7 +3,7 @@ body {
 	margin: 1em 0;
 	padding: 0;
 
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 20px;
 	font-family: SF Compact Text;
 }
@@ -37,7 +37,7 @@ code {
 	color: inherit;
 	background: var(--vscode-textCodeBlock-background);
 	font-family: JetBrainsMono Nerd Font !important;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 ul,
